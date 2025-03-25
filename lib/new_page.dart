@@ -6,16 +6,17 @@ class NewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
-      appBar: AppBar(
-        title: const Text('New Page'),
-      ),
-      body: const Center(
+      backgroundColor: Colors.green.shade500,
+      body: Center(
         child: Text(
-          'Wahala dey o!',
-          style: TextStyle(fontSize: 34),
+          "This is the new page!",
+          style: TextStyle(fontSize: 24),
         ),
       ),
     );
   }
 }
+
+
+
+
